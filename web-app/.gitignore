@@ -1,0 +1,4 @@
+data.db*
+.next/
+node_modules/
+*.tsbuildinfo

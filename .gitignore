@@ -1,0 +1,82 @@
+# self-hosted Plane (local docker setup — not committed)
+plane-selfhosted/
+
+# dependencies
+node_modules/
+.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+.pnpm-store/
+
+# Next.js / build outputs
+.next/
+out/
+build/
+dist/
+coverage/
+.turbo/
+.vercel/
+.next
+web-app/.next/
+web-app/out/
+web-app/build/
+web-app/dist/
+
+# env & secrets — never commit
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.pem
+*.key
+
+# sqlite / local DB
+data.db
+data.db-*
+*.db
+*.db-journal
+*.sqlite
+*.sqlite3
+web-app/data.db
+web-app/*.db
+
+# OS artifacts
+.DS_Store
+**/.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+logs/
+*.log
+
+# typescript / cache
+*.tsbuildinfo
+.eslintcache
+.stylelintcache
+.parcel-cache/
+
+# playwright artifacts
+test-results/
+playwright-report/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# opencode local cache (keep skills/commands, ignore runtime)
+.opencode/node_modules/
+.opencode/package-lock.json

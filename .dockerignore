@@ -1,0 +1,59 @@
+# dependencies
+node_modules
+.pnp
+.pnp.*
+.pnpm-store
+
+# Next.js / build outputs
+.next
+web-app/.next
+out
+web-app/out
+build
+dist
+coverage
+.turbo
+.vercel
+
+# isolation / tooling work dirs
+.work
+.git
+
+# tests (kept out of the image build context)
+tests
+
+# env & secrets
+.env
+.env.*
+*.pem
+*.key
+
+# sqlite / local DB
+data.db
+*.db
+*.db-*
+*.sqlite
+*.sqlite3
+web-app/data.db
+
+# logs
+*.log
+logs
+npm-debug.log*
+
+# OS / IDE / cache
+.DS_Store
+**/.DS_Store
+.vscode
+.idea
+*.tsbuildinfo
+*.swp
+*~
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+.eslintcache
+.stylelintcache
+.parcel-cache
+test-results
+playwright-report

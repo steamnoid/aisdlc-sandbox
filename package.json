@@ -1,0 +1,42 @@
+{
+  "name": "wellbeing-tracker",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "dev": "next dev web-app",
+    "build": "next build web-app",
+    "start": "next start web-app",
+    "typecheck": "tsc --noEmit -p web-app/tsconfig.json"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.62.1",
+    "@types/bcryptjs": "^2.4.6",
+    "@types/better-sqlite3": "^9.6.0",
+    "@types/node": "^26.2.0",
+    "@types/react": "19.2.18",
+    "@types/uuid": "^10.0.0",
+    "autoprefixer": "^10.5.4",
+    "postcss": "^8.5.26",
+    "tailwindcss": "^3.4.19",
+    "tsx": "^4.23.12",
+    "typescript": "^5.6.0",
+    "vitest": "^1.6.0"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "bcryptjs": "^3.0.3",
+    "better-sqlite3": "^13.0.3",
+    "jose": "^6.2.10",
+    "next": "^15.5.23",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8",
+    "uuid": "^14.0.2"
+  },
+  "allowScripts": {
+    "better-sqlite3@13.0.3": true,
+    "next@15.5.23": true,
+    "sharp@0.34.5": true
+  }
+}
